@@ -31,6 +31,7 @@ class ExampleScreen extends React.Component {
           <ActivityIndicator size="large" color="#0000ff" />
         ) : (
           <View>
+            <Text style={Style.title}>Welcome to the Template!</Text>
             <View style={Style.logoContainer}>
               <Image style={Style.logo} source={Images.logo} resizeMode={'contain'} />
             </View>
@@ -55,7 +56,7 @@ class ExampleScreen extends React.Component {
       </View>
     )
   }
-  
+
   _fetchUser() {
     this.props.fetchUser()
   }

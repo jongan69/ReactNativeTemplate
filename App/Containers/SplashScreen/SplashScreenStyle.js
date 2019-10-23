@@ -5,17 +5,17 @@ import ApplicationStyles from 'App/Theme/ApplicationStyles'
 export default StyleSheet.create({
   container: {
     ...ApplicationStyles.screen.container,
-    display: 'flex',
-    justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: Colors.primary,
-  },
-  logo: {
     display: 'flex',
     justifyContent: 'center',
+  },
+  logo: {
     alignItems: 'center',
+    backgroundColor: '#0000',
+    display: 'flex',
     height: 70,
+    justifyContent: 'center',
     width: 70,
-    backgroundColor: 'white',
   },
 })
